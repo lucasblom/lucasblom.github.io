@@ -17,8 +17,8 @@
 .icons{
     height: 12vw;
     aspect-ratio: 1/1;
-    background-color: #a4bdae;
-    box-shadow: 0 0 10px 0 #a4bdae;
+    background-color: var(--second-background-color);
+    box-shadow: 0 0 10px 0 var(--second-background-color);
 
     display: flex;
     justify-content: center;
@@ -28,8 +28,8 @@
     transition: 300ms ease;
 }
 .icons:hover{
-    background-color: #52796f;
-    box-shadow: 0 0 10px 0 #52796f;
+    background-color: var(--third-background-color);
+    box-shadow: 0 0 10px 0 var(--third-background-color);
 
 }
 #icons-wrapper:hover .icons:first-child{
