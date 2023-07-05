@@ -218,12 +218,6 @@ nav {
     margin-top: 0.5vh;
 }
 
-.nav-row:last-child {
-    border-bottom: none;
-    margin-bottom: 0.5vh;
-    margin-top: auto;
-}
-
 .nav-row:hover {
     background-color: var(--nav-hover-color);
     backdrop-filter: blur(50px);
