@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="../sub-pages/files.css">
+    <link rel="stylesheet" href="../projects/projects.css">
     <link
       rel="icon"
       type="image/x-icon"
@@ -27,7 +27,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Files</title>
+    <title>Projects</title>
   </head>
 <body>
     <div id="trailer">
@@ -36,7 +36,7 @@
       <nav>
         <div class="nav-row">
           <div class="nav-element interactible" data-type="nav-title">
-            <a href="../index.html#one">
+            <a href="../">
               <img
                 src="/pictures/lb_logo_dark.png"
                 alt="Picture Not Found"
@@ -48,40 +48,74 @@
           <div class="nav-text"><h3 data-value="Lucas Blom">Lucas Blom</h3></div>
         </div>
   
-        <a href="../index.html#two" class="nav-row interactible">
+        <a href="../#two" class="nav-row interactible">
           <div class="nav-element">
             <img src="/pictures/person.png" alt="" />
           </div>
   
           <div class="nav-text"><h3>About Me</h3></div>
         </a>
-        <a href="../index.html#three" class="nav-row interactible">
+        <a href="../#three" class="nav-row interactible">
           <div class="nav-element">
             <img src="/pictures/camera.png" alt="" />
           </div>
           <div class="nav-text"><h3>Hobbies</h3></div>
         </a>
-        <a href="files.html" class="nav-row interactible">
+        <a href="../projects/" class="nav-row interactible">
           <div class="nav-element">
             <img src="/pictures/file.png" alt="" />
           </div>
-          <div class="nav-text"><h3>Files</h3></div>
+          <div class="nav-text"><h3>Projects</h3></div>
         </a>
-        <a href="contact.html" class="nav-row interactible">
+        <a href="../contact/" class="nav-row interactible">
           <div class="nav-element">
             <img src="/pictures/mail.png" alt="" />
           </div>
           <div class="nav-text"><h3>Contact</h3></div>
         </a>
-        <a href="#" class="nav-row interactible" data-type="switch">
-          <div class="nav-element">
-            <img src="/pictures/sun.png" alt="" />
-          </div>
-          <div class="nav-text"><h3>Switch Theme</h3></div>
-        </a>
       </nav>
       <main>
-
+        <h1>Projects</h1>
+        <a class="projects interactible" href="https://lucasblom.github.io/S4F_Project/" target="_blank">
+          <div class="preview">
+              <img src="../pictures\weather_application_screen_shot.png" alt="S4F Project">
+          </div>
+          <div class="description">
+            <h2>S4F Project</h2>
+            <p>This is my S4F Project, a web application that provides you with accurate weather 
+              forecasts for the next 7 days based on city names. This application utilizes the 
+              OpenWeatherMap API to retrieve weather data and Unsplash API to set a dynamic background 
+              image of the city corresponding to the weather forecast.</p>
+          </div>
+        </a>
+        <a class="projects interactible" href="https://codepen.io/bloml" target="_blank" data-type="codepen">
+          <div class="preview">
+              <img src="../pictures/code_pen_phone_preview.png" alt="S4F Project">
+          </div>
+          <div class="description">
+            <h2>CODEPEN</h2>
+            <p>
+              I use CodePen to test out new ideas and to practice my HTML, CSS and JavaScript skills. I
+              have created a few projects on CodePen that I am proud of and that I would like to share.
+              For example, I have created this simple interactive phone of how I felt the Digitec mobile 
+              application should have looked like. This was made before they updated their application.
+            </p>
+          </div>
+        </a>
+        <a class="projects interactible" href="https://codepen.io/bloml" target="_blank" data-type="codewars">
+          <div class="preview">
+              <img src="../pictures/code_wars_preview.png" alt="S4F Project">
+          </div>
+          <div class="description">
+            <h2>Code Wars</h2>
+            <p>
+              I use Code Wars to practice my Coding skills. I have completed a few challenges on Code Wars
+              and I am currently working on a few more. I have completed 67 challenges and I am currently
+              ranked 4 kyu. I am proud of this achievement and I am looking forward to completing more
+              challenges.
+            </p>
+          </div>
+        </a>
       </main>
 </body>
 </html>

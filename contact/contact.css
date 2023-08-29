@@ -1,7 +1,24 @@
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#contact{
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 #icons-wrapper{
     width: 80vw;
     height: 30vh;
-
 
     display: flex;
     justify-content: center;
@@ -16,9 +33,9 @@
 }
 .icons{
     height: 12vw;
+    max-height: 200px;
     aspect-ratio: 1/1;
-    background-color: var(--second-background-color);
-    box-shadow: 0 0 10px 0 var(--second-background-color);
+    box-shadow: rgba(121, 121, 121, 0.555) 0px 2px 8px 0px;
 
     display: flex;
     justify-content: center;
@@ -28,8 +45,8 @@
     transition: 300ms ease;
 }
 .icons:hover{
-    background-color: var(--third-background-color);
-    box-shadow: 0 0 10px 0 var(--third-background-color);
+    background-color: var(--second-background-color);
+    box-shadow: 0 0 10px 0 var(--second-background-color);
 
 }
 #icons-wrapper:hover .icons:first-child{
@@ -38,17 +55,11 @@
 #icons-wrapper:hover .icons:nth-child(2){
     transform: translate(0, 10vw)rotate(25deg);
 }
-#icons-wrapper:hover .icons:nth-child(3){
-    transform: translate(0, -5vw)rotate(-10deg);
-}
-#icons-wrapper:hover .icons:nth-child(4){
-    transform: translate(0, 15vw)rotate(25deg);
-}
 #icons-wrapper:hover .icons:last-child{
     transform: rotate(25deg);
 }
 .fa-brands, .fa-regular, .fa-solid{
-    font-size: 8vw;
+    font-size: 5rem;
     color: black;
 }
 .icons img{
